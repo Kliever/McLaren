@@ -16,6 +16,10 @@ body{
   font-weight: 400;
 }
 
+main{
+  overflow: hidden;
+}
+
 .header{
   height: 100vh;
   position: absolute;
@@ -350,6 +354,9 @@ body{
 .footer-copy{
   text-align: center;
   font-weight: 700;
+}
+.footer-copy a:hover{
+  text-decoration: underline;
 }
 
 .footer-copy ul{
